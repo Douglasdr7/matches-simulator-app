@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".DetailActivity">
+    tools:context=".domain.ui.DetailActivity">
 
     <!-- Adding an image to the prominent top app bar:
          Reference: https://material.io/components/app-bars-top/android#regular-top-app-bar -->
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/app_bar_height"
+        android:layout_height="180dp"
         android:fitsSystemWindows="true">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -57,7 +57,7 @@
                 android:layout_height="@dimen/team_image_size"
                 android:layout_marginStart="@dimen/margin_default"
                 android:layout_marginTop="@dimen/margin_default"
-                android:contentDescription="@string/cd_home_team"
+                android:contentDescription="@string/cd_Home_Team"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvDescription"
                 tools:srcCompat="@tools:sample/avatars" />
@@ -93,7 +93,7 @@
                 android:layout_marginTop="@dimen/margin_default"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 app:layout_constraintEnd_toEndOf="@+id/ivHomeTeam"
-                app:layout_constraintStart_toStartOf="@+id/ivHomeTeam"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/rbHomeTeamStars"
                 tools:text="Home Team" />
 
@@ -157,6 +157,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="@+id/ivAwayTeam"
                 app:layout_constraintEnd_toStartOf="@+id/ivAwayTeam"
                 app:layout_constraintStart_toEndOf="@+id/tvVersus"
