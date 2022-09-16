@@ -1,6 +1,6 @@
 # Aplicativo de simulação de partidas de futebol! 
 
-Aplicativo em linguagem JAVA que gera resultados randomicos de partidas de futebol, consumindo de uma API imagens, nomes e força de jogo. 
+Aplicativo em linguagem JAVA/KOTLIN que gera resultados randomicos de partidas de futebol, consumindo de uma API imagens, nomes e força de jogo. 
 
 ## Sobre mim
 Oi, sou o Douglas! Estou aqui para aprender e contribuir com meu conhecimento nesse aplicativo Android utilizando Java e Kotlin. 
